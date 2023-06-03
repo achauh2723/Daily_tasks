@@ -1,0 +1,30 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: grey;
+}
+
+.navbar a {
+    color: red;
+    width: 100%;
+    text-align: center;
+    padding: 5px 0px;
+    font-size: 30px;
+    color: white;
+}
+
+.navbar .active {
+    background-color: darkcyan !important;
+}
+
+.navbar a:hover {
+    background-color: black;
+    transition: .5s;
+}
