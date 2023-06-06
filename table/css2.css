@@ -1,0 +1,9 @@
+
+.container {
+    height: 60%;
+    width: 60%;
+    border-spacing: 7px;
+    margin-left: 20%;
+    margin-right: 50%;
+    text-align: center;
+}
