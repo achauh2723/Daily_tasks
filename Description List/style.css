@@ -1,0 +1,14 @@
+*{
+    background-color: black;
+}
+.head{
+    color: aqua ;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.list{
+    color: azure;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+}
