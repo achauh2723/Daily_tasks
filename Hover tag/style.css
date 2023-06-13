@@ -1,0 +1,12 @@
+.head{
+    color: blue;
+    text-decoration-line: underline;
+    text-align: center;
+    padding: 40px;
+}
+
+a:hover{
+    color: pink;
+}
+
+    
