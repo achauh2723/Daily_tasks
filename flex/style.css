@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    border: 0px;
+}
+
+.section1{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding: 80px;
+    align-items: center;
+}
+
+.image{
+    height: 70px;
+}
+
+.div1{
+    text-align: center;
+    height: 40%;
+    width: 40vh;
+}
+
+.head{
+    text-align: center;
+
+}
