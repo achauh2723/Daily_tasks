@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.head{
+    text-align: center;
+}
+
+.image{
+    height: 90%;
+    width: 20vh;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: max-content;
+    column-gap: 50px;
+    row-gap: 50px;
+}
