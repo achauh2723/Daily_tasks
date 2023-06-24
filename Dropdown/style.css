@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: cursive;
+}
+
+.nav {
+    background-color: darkcyan;
+    display: flex;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 25px;
+    font-size: 15px;
+    border: 1px black solid;
+}
+
+.nav a:hover {
+    color: black;
+    background-color: rgb(212, 208, 208);
+}
+
+.dropdown a {
+    width: 100%;
+    display: flex;
+}
+/* //////////// Home */
+#home {
+    width: 25%;
+}
+
+#homeMenu {
+    position: absolute;
+    display: none;
+}
+
+#home:hover #homeMenu {
+    display: block;
+}
+
+/* //////////// Contact */
+
+
+#contact {
+    width: 25%;
+}
+
+#contactMenu {
+    position: absolute;
+    display: none;
+}
+
+#contact:hover #contactMenu {
+    display: block;
+}
+
+/* ////////////////////////////  About*/
+#about {
+    width: 25%;
+}
+
+#aboutMenu {
+    position: absolute;
+    display: none;
+}
+
+#about:hover #aboutMenu {
+    display: block;
+}
+
+/* ////////////////////////////  BLog*/
+
+#blog {
+    position: relative;
+    width: 25%;
+}
+
+#blog:hover #blogMenu {
+    display: block;
+}
+
+#blogMenu {
+    position: absolute;
+    display: none;
+}
