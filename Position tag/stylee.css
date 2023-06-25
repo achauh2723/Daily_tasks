@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.head{
+    text-align: center;
+    background-color: palevioletred;
+    color: white;
+    font-size: x-large;
+    width: 100%;
+    padding: 80px;
+}
+
+.nav{
+    background-color: black;
+    padding: 15px;
+    position: sticky;
+    overflow: hidden;
+    top: 0px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: white;
+    padding: 15px 45px;
+    width: 30px;
+    font-size: larger;
+}
+
+.body{
+    padding: 70px;
+    width: 95%;
+}
+
+.para{
+    padding: 20px;
+}
+
+.head1{
+    padding: 20px;
+}
