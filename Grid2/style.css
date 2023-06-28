@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.section1{
+    display: grid;
+    grid-template-columns: 10px 10px 10px;
+    grid-template-rows: 10px;
+    border: 2px solid red;
+}
+
+.image{
+    height: 10px;
+    border: 2px solid red;
+}
