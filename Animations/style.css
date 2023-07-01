@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.section1{
+    padding: 70px;
+    background-color: aqua;
+    height: 45vh;
+    width: 25%;
+
+}
+
+.section2{
+    padding: 70px;
+    background-color: aqua;
+    border-radius: 50%;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 90px;
+}
+
+.section1:hover{
+    border-radius: 50%;
+    background-color: red;
+    transition: 1s;
+}
+
+.section2:hover{
+    border-radius: 10%;
+    background-color: red;
+    transition: 1s;
+}
+
+.head{
+    text-align: center;
+}
