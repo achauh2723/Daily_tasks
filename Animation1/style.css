@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.section1{
+    padding: 100px;
+}
+
+.para{
+    padding: 80px;
+    text-align: center;
+    background-color: green;
+    
+}
+
+.para:hover{
+    background-color: lightblue;
+    text-align: left;
+}
