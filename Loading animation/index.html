@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylessheet" href="style.css">
+</head>
+<style>
+    * {
+        box-sizing: border-box;
+        margin: 0px;
+        padding: 50px;
+    }
+
+    .section {
+        padding-left: 40%;
+    }
+
+    .load {
+        border: 2px solid green;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 150px;
+        height: 150px;
+        animation-name: aryan;
+        animation-duration: 0.6s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+
+    @keyframes aryan {
+        0%{
+            background-color: red;
+            margin-top: 0px;
+            box-shadow: 0px 0px 20px  black;
+            text-shadow: 0 0 5px green;
+        }
+
+        20%{
+            background-color: red;
+            margin-top: 20px;
+            box-shadow: 0px 0px 20px black;
+            text-shadow: 0 0 5px green;
+        }
+
+        40%{
+            background-color: red;
+            margin-top: 40px;
+            box-shadow: 0px 0px 20px black;
+            text-shadow: 0 0 5px green;
+        }
+
+        60%{
+            margin-top: 60px;
+            background-color: red;
+            box-shadow: 0px 0px 20px black;
+            text-shadow: 0 0 5px green;
+        }
+        
+        80%{
+            margin-top: 80px;
+            background-color: red;
+            box-shadow: 0px 0px 20px black;
+            text-shadow: 0 0 5px green;
+        }
+
+        100% {
+            background-color: red;
+            margin-top: 100px;
+            box-shadow: 0px 0px 20px black;
+            text-shadow: 0 0 5px green;
+        }
+    }
+</style>
+
+<body>
+    <div class="section">
+        <h2 class="load">Loading......</h2>
+    </div>
+</body>
+
+</html>
