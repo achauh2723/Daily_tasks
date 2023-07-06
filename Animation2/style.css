@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.section1{
+    border: 2px solid red;
+    animation-name: fadein;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+.fadein:hover {
+    animation-name: fadein;
+    animation-timing-function: ease;
+}
+
+@keyframes fadein{
+    0%{
+        width:0px;
+        height:0px;
+    }
+    20%{
+        width:20%;
+        height:20vh;
+        background-color: #eeceee;
+    }
+    60%{
+        width:40%;
+        height:40vh;
+        background-color: #885a88;
+    }
+
+    80%{
+        width:60%;
+        height:60vh;
+        background-color: #7a2c7a;
+    }
+    100%{
+        width:80%;
+        height:80vh;
+        background-color: #750e75;
+    }
+}
