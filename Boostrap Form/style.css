@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.form{
+    padding: 80px;
+    border: 2px solid black;
+}
+
+.head{
+    text-align: center;
+    padding-top: 60px;
+}
+
+.btn{
+    padding: 5px;
+}
+
+.row{
+    margin-top: 15px;
+}
